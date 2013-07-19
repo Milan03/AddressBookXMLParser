@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<addressBook>
+  <contact>
+    <contactID>m_sobat</contactID>
+    <givenName>Gerry</givenName>
+    <surName>Sobat</surName>
+    <homePhone>5196734545</homePhone>
+    <mobilePhone>5196585584</mobilePhone>
+    <streetAddress>123 Devos Drive</streetAddress>
+    <postalCode>N5X4S2</postalCode>
+    <country>Canada</country>
+    <state>ON</state>
+    <city>London</city>
+    <notes>Meeting July 15th</notes>
+  </contact>
+  <contact>
+    <contactID>t_row</contactID>
+    <givenName>Tim</givenName>
+    <surName>Row</surName>
+    <homePhone>4161184568</homePhone>
+    <mobilePhone>4162284588</mobilePhone>
+    <streetAddress>123 King Street</streetAddress>
+    <postalCode>T3K5T4</postalCode>
+    <country>Canada</country>
+    <state>ON</state>
+    <city>Toronto</city>
+    <notes>Toronto project leader</notes>
+  </contact>
+  <contact>
+    <contactID>g_taylor</contactID>
+    <givenName>Greg</givenName>
+    <surName>Taylor</surName>
+    <homePhone>4038181266</homePhone>
+    <mobilePhone>4038582554</mobilePhone>
+    <streetAddress>5122 Frosty Road</streetAddress>
+    <postalCode>N5X4S2</postalCode>
+    <country>Canada</country>
+    <state>AL</state>
+    <city>Calgary</city>
+    <notes>Calgary division contact</notes>
+  </contact>
+  <contact>
+    <contactID>j_smith</contactID>
+    <givenName>Jannis</givenName>
+    <surName>Smith</surName>
+    <homePhone>4038181266</homePhone>
+    <mobilePhone>4038582554</mobilePhone>
+    <streetAddress>566 5th Avenue</streetAddress>
+    <postalCode>T3K5T6</postalCode>
+    <country>Canada</country>
+    <state>AL</state>
+    <city>Calgary</city>
+    <notes>Calgary division contact</notes>
+  </contact>
+  <contact>
+    <contactID>t_smith</contactID>
+    <givenName>Taylor</givenName>
+    <surName>Smith</surName>
+    <homePhone>4038181266</homePhone>
+    <mobilePhone>4038582554</mobilePhone>
+    <streetAddress>566 5th Avenue</streetAddress>
+    <postalCode>T3K5T6</postalCode>
+    <country>Canada</country>
+    <state>AL</state>
+    <city>Calgary</city>
+    <notes>Calgary division contact</notes>
+  </contact>
+</addressBook>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<addressBook>
+  <contact>
+    <contactID>asfd</contactID>
+    <givenName>asdfa</givenName>
+    <surName>asdf</surName>
+    <homePhone>asdf</homePhone>
+    <mobilePhone>adf</mobilePhone>
+    <streetAddress>asdf</streetAddress>
+    <postalCode>asdf</postalCode>
+    <country>asd</country>
+    <state>asdf</state>
+    <city>asdf</city>
+    <notes>asdf</notes>
+  </contact>
+</addressBook>

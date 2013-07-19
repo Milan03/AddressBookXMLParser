@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="address_book_schema"
+    targetNamespace="http://tempuri.org/address_book_schema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/address_book_schema.xsd"
+    xmlns:mstns="http://tempuri.org/address_book_schema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="addressBook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="contact" type="mstns:contact" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="contact">
+    <xs:sequence>
+      <xs:element name="contactID" type="xs:ID"/>
+      <xs:element name="givenName" type="xs:string"/>
+      <xs:element name="surName" type="xs:string"/>
+      <xs:element name="homePhone" type="mstns:phone_number"/>
+      <xs:element name="mobilePhone" type="mstns:phone_number"/>
+      <xs:element name="streetAddress" type="mstns:address"/>
+      <xs:element name="postalCode" type="mstns:postal_code"/>
+      <xs:element name="country" type="xs:string"/>
+      <xs:element name="state" type="mstns:state_prov"/>
+      <xs:element name="city" type="xs:string"/>
+      <xs:element name="notes" type="mstns:address">
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="phone_number">
+    <xs:restriction base="xs:string">
+      <!--10 digit phone number no spaces-->
+      <xs:pattern value="^\d{10}$"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="address">
+    <xs:restriction base="xs:string">
+      <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="postal_code">
+    <xs:restriction base="xs:string">
+      <!--Canadian postal code formats with or without whitespace-->
+      <xs:pattern value="^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="state_prov">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^[A-Z]{2}$"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
